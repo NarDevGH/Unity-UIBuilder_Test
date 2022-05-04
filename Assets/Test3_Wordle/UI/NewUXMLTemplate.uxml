@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Test3_Wordle/UI/StyleSheet.uss?fileID=7433441132597879392&amp;guid=62dbf2215686cfc4bacf5f2ee91e38c6&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="screen" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(255, 255, 255); align-items: center;">
+        <ui:VisualElement name="top-container" picking-mode="Ignore" style="min-width: 512px; min-height: 50px; align-items: center; justify-content: space-between; flex-direction: row; flex-wrap: nowrap; flex-grow: 0;">
+            <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 0; flex-direction: row; flex-wrap: nowrap; top: 0; bottom: 0;">
+                <ui:Button display-tooltip-when-elided="true" class="btn_top-container" />
+                <ui:Button display-tooltip-when-elided="true" class="btn_top-container" />
+            </ui:VisualElement>
+            <ui:Label text="WORDLE" display-tooltip-when-elided="true" style="flex-direction: column; position: absolute; top: 0; bottom: 0; left: 50%; right: 50%; -unity-text-align: middle-center; color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 40px;" />
+            <ui:VisualElement style="position: absolute; right: 0; flex-direction: row-reverse; flex-wrap: nowrap; top: 0; bottom: 0;">
+                <ui:Button display-tooltip-when-elided="true" class="btn_top-container" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" class="btn_top-container" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

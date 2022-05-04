@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/TestProject1/UI/StyleSheets/EditorUI.uss?fileID=7433441132597879392&amp;guid=5c5fca86c1c2ac54a9cc9255bd10d5a6&amp;type=3#EditorUI" />
+    <ui:VisualElement class="Header">
+        <ui:Label text="Weapon:" display-tooltip-when-elided="true" name="WeaponNameText" style="color: rgb(255, 255, 255); font-size: 20px;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="Container">
+        <ui:TextField picking-mode="Ignore" label="Weapon Name:" text="Name" name="wNameText" />
+        <uie:ObjectField label="Weapon Image:" type="UnityEngine.Sprite, UnityEngine.CoreModule" name="wSprite" />
+        <ui:SliderInt picking-mode="Ignore" label="Rarity" value="1" high-value="4" low-value="1" show-input-field="true" name="wRarity" />
+        <ui:SliderInt picking-mode="Ignore" label="Damage" value="50" high-value="100" low-value="1" show-input-field="true" name="wDamage" />
+        <ui:SliderInt picking-mode="Ignore" label="Durability" value="100" high-value="500" low-value="1" show-input-field="true" name="wDurability" />
+    </ui:VisualElement>
+    <ui:VisualElement class="ImageContainer">
+        <ui:VisualElement name="MeleeWeaponImage" class="WeaponImage" />
+    </ui:VisualElement>
+</ui:UXML>

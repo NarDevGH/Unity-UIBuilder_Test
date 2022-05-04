@@ -1,0 +1,43 @@
+.WeaponImage {
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(196, 196, 196, 255);
+    border-right-color: rgba(196, 196, 196, 255);
+    border-top-color: rgba(196, 196, 196, 255);
+    border-bottom-color: rgba(196, 196, 196, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.ImageContainer {
+    align-items: center;
+    border-bottom-color: rgba(70, 96, 124, 255);
+    border-bottom-width: 4px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.Container {
+    align-items: stretch;
+    border-bottom-color: rgb(70, 96, 124);
+    border-bottom-width: 4px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.Header {
+    align-items: center;
+    border-bottom-color: rgb(70, 96, 124);
+    border-bottom-width: 4px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top-color: rgba(70, 96, 124, 255);
+    border-top-width: 4px;
+    height: 10%;
+    flex-grow: 1;
+}

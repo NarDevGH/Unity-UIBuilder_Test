@@ -1,0 +1,28 @@
+.btn_top-container {
+    margin-left: 2px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-image: url('project://database/Assets/Test3_Wordle/UI/Noun_Project_question_mark_icon_1101884_cc.svg.png?fileID=2800000&guid=554b499430e00764fa189e218ef8639a&type=3#Noun_Project_question_mark_icon_1101884_cc.svg');
+    -unity-slice-left: 20;
+    -unity-slice-right: 20;
+    -unity-slice-top: 15;
+    -unity-slice-bottom: 15;
+}
+
+.btn_top-container :hover {
+    background-color: rgba(0, 0, 0, 255);
+}
