@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Test3_Menu/UI/MainMenu/main-menu-style.uss?fileID=7433441132597879392&amp;guid=c19cfc6a19e012548a8956f99bff1df0&amp;type=3#main-menu-style" />
+    <ui:VisualElement name="main-menu-screen" style="flex-grow: 1; align-items: center; background-image: resource(&apos;Sprites/background&apos;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="menu-center-panel" style="align-items: center; justify-content: center; width: 50%; height: 100%; background-color: rgba(0, 0, 0, 0.39);">
+            <ui:VisualElement name="title" style="width: 100%; height: 35%; min-height: 150px; background-image: resource(&apos;Sprites/The-Man-From-Zombie-Name-big-glow-trans-e1558242932570&apos;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement name="menu-buttons-list" style="align-items: center; width: 50%; min-width: 200px;">
+                <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" class="main-menu-button" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="setting-button" class="main-menu-button" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit-button" class="main-menu-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="padding-bottom: 274px;" />
+            <ui:Label text="Username" display-tooltip-when-elided="true" name="player-username" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: auto; color: rgba(255, 255, 255, 255); -unity-font-style: bold; font-size: 72px; -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

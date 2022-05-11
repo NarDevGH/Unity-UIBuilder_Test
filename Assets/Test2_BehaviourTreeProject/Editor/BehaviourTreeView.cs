@@ -145,7 +145,7 @@ public class BehaviourTreeView : GraphView
         }
 
         {
-            //returns a list of all the types that inherit from ActionNode 
+            //returns a list of all the types that inherit from CompositeNode 
             var types = TypeCache.GetTypesDerivedFrom<CompositeNode>();
 
             foreach (var type in types)
@@ -155,7 +155,7 @@ public class BehaviourTreeView : GraphView
         }
 
         {
-            //returns a list of all the types that inherit from ActionNode 
+            //returns a list of all the types that inherit from DecoratorNode 
             var types = TypeCache.GetTypesDerivedFrom<DecoratorNode>();
 
             foreach (var type in types)

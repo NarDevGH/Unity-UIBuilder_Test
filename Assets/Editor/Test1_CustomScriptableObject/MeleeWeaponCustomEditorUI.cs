@@ -14,12 +14,13 @@ namespace TestProject1.Editor
         private VisualElement root;
         private VisualTreeAsset visualTree;
 
+#if UNITY_EDITOR
         private void OnEnable()
         {
             root = new VisualElement();
             visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/TestProject1/UI/UIEditor.uxml");
         }
-
+#endif
         public override VisualElement CreateInspectorGUI()
         {
             root.Clear();

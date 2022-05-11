@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Test3_Menu/UI/SettingsMenu/settings-style.uss?fileID=7433441132597879392&amp;guid=67e0333c8756c1c41a92c1e03edf45f2&amp;type=3#settings-style" />
+    <ui:VisualElement name="settings-screen" style="flex-grow: 1; align-items: center; background-image: resource(&apos;Sprites/background&apos;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="menu-center-panel" style="align-items: center; justify-content: center; width: 50%; height: 100%; background-color: rgba(0, 0, 0, 0.39);">
+            <ui:Label text="Settings" display-tooltip-when-elided="true" style="width: 100%; font-size: 90px; color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-style: bold;" />
+            <ui:VisualElement style="width: 100%; height: 10%;" />
+            <ui:Button text="Return" display-tooltip-when-elided="true" name="return-button" enable-rich-text="true" class="settings-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
