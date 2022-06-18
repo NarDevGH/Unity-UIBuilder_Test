@@ -1,0 +1,25 @@
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgba(255, 77, 0, 255);
+    transition: background-color, width 2s;
+}
+
+
+.item:hover{
+    background-color: rgba(0, 0, 0, 255);
+    width: 400px;
+    transition: background-color 2s;
+}
+    
+/*
+    .item:hover{
+        background-color: rgba(0, 0, 0, 255);
+        width: 400px;
+        transition-property: background-color, width;   Las propiedades que seran afectadas por la transicion
+        transition-duration: 2s;
+        transition-timing-function: linear | ease | ease-in | ease-out| ease-in-out;     La vel. durante la transicion
+        transition-delay: 1s;       Cuanto tarde en iniciar la transicion.
+    }
+*/

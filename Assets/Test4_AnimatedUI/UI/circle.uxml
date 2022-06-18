@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Test4_AnimatedUI/UI/CircleStyle.uss?fileID=7433441132597879392&amp;guid=83f66543ffe3bdf4590e7113e17136bb&amp;type=3#CircleStyle" />
+    <ui:VisualElement name="screen" style="flex-grow: 1;">
+        <ui:VisualElement class="item" />
+    </ui:VisualElement>
+</ui:UXML>
